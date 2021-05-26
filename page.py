@@ -15,4 +15,4 @@ class Page():
             return False
 
     def close(self):
-        self.driver.close_driver()
+        self.driver.quit()
